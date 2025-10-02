@@ -10,6 +10,18 @@ function Footer() {
         <div>
             footer
         </div>
+        <div>
+            <Link to='/'
+            className={`transition-colors   ${
+                isActive('/')
+                ? 'hover:text-blue-400 hover:underline'
+                : 'hover:text-blue-400 hover:underline'
+            }`}
+            >Home</Link>
+            <Link to='/sobre'
+            
+            ></Link>
+        </div>
     </nav>
    )
 }
